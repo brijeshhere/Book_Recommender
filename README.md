@@ -1,5 +1,8 @@
 # Book Recommender: Collaborative Filtering based Recommender System
 
+Link to project:
+[Render](https://book-recommender-6rig.onrender.com)
+
 Recommender systems are algorithms aimed at suggesting relevant items to users (items being movies to watch, text to read, products to buy or anything else depending on industries).
 
 ![GIF](src/Animation.gif)
