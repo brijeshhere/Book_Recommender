@@ -1,9 +1,9 @@
 import numpy as np
 import pickle as pkl
 
-similar_score=pkl.load(open('Learn/Book_recommendation/similar_score.pkl','rb'))
-pt=pkl.load(open('Learn/Book_recommendation/pt.pkl','rb'))
-books=pkl.load(open('Learn/Book_recommendation/books.pkl','rb'))
+similar_score=pkl.load(open('similar_score.pkl','rb'))
+pt=pkl.load(open('pt.pkl','rb'))
+books=pkl.load(open('books.pkl','rb'))
 
 def recommend_func(book_name):
     book_name=book_name.strip()

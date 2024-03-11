@@ -6,8 +6,8 @@ from func.recommend import recommend_func as rc
 
 app=Flask(__name__)
 
-popular_df=pkl.load(open('Learn\Book_recommendation\popular.pkl','rb'))
-similar_score=pkl.load(open('Learn\Book_recommendation\similar_score.pkl','rb'))
+popular_df=pkl.load(open('popular.pkl','rb'))
+similar_score=pkl.load(open('similar_score.pkl','rb'))
 
 @app.route('/')
 def home():
