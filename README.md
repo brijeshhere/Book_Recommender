@@ -18,6 +18,7 @@ Technology Used:
 2. HTML
 3. CSS
 4. Python
+5. Sql
 
 Libraries Used:
 
